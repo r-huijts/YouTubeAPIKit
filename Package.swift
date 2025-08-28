@@ -20,8 +20,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "YouTubeAPIKit",
-            path: "Sources/YouTubeKit",
-            dependencies: []/*,
-            swiftSettings: [.unsafeFlags(["-Xfrontend", "-strict-concurrency=complete"])]*/),
+            path: "Sources/YouTubeKit"
+        )
     ]
 )
